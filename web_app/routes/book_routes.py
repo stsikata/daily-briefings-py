@@ -15,6 +15,8 @@ def list_books():
     ] # some dummy / placeholder data
     return jsonify(books)
 
+
+#  EXAMPLE OF REQUIRED URL PARAMETERS
 @book_routes.route("/api/books/<int:book_id>")
 @book_routes.route("/api/books/<int:book_id>.json")
 def get_book(book_id):
