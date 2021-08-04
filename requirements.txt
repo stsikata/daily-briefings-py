@@ -9,7 +9,10 @@ pgeocode
 pandas
 requests
 sendgrid==6.6.0
+
+
 flask
+gunicorn # heroky wants this to run our web app
 
 #
 # TEST
